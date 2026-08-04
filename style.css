@@ -136,6 +136,62 @@ nav ul li a:hover{
    IMAGE
 ========================== */
 
+/* Hero Image */
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Outer Circle */
+
+.image-circle{
+
+    width:420px;
+    height:420px;
+
+    border-radius:50%;
+    overflow:hidden;
+
+    position:relative;
+
+    border:6px solid #4FA3FF;
+
+    box-shadow:
+        0 0 15px rgba(79,163,255,.8),
+        0 0 40px rgba(79,163,255,.6),
+        0 0 80px rgba(79,163,255,.35);
+
+    transition:.5s;
+}
+
+/* Glow on Hover */
+
+.image-circle:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:
+        0 0 20px rgba(79,163,255,1),
+        0 0 50px rgba(79,163,255,.8),
+        0 0 100px rgba(79,163,255,.5);
+
+}
+
+/* Image */
+
+.profile-img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+
+    display:block;
+}
 
 /* ==========================
    SECTIONS
