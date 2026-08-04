@@ -136,20 +136,6 @@ nav ul li a:hover{
    IMAGE
 ========================== */
 
-.hero-image{
-    width:40%;
-    display:flex;
-    justify-content:center;
-}
-
-.hero-image img{
-    width:350px;
-    height:350px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid #58a6ff;
-    box-shadow:0 0 35px #58a6ff;
-}
 
 /* ==========================
    SECTIONS
